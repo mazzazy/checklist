@@ -320,6 +320,11 @@
   .dotnet { background: rgba(129,140,248,0.12); color: var(--p0); border: 1px solid rgba(129,140,248,0.25); }
   .project { background: rgba(251,191,36,0.12); color: var(--p3); border: 1px solid rgba(251,191,36,0.25); }
   .cert { background: rgba(167,139,250,0.12); color: var(--p5); border: 1px solid rgba(167,139,250,0.25); }
+  .pluralsight-course {
+        background: rgba(251,191,36,0.12);
+        color: var(--p3);
+        border: 1px solid rgba(251,191,36,0.25);
+    }
 
   .item-desc {
     font-size: 11px;
@@ -420,8 +425,27 @@ const PHASES = [
         items: [
           { title: 'Python for Everybody – Dr. Chuck (University of Michigan)', desc: 'The gold standard intro. Audit free on Coursera or watch the full course on YouTube. Skip to Week 3 content — you don\'t need the very basics.', link: 'https://www.coursera.org/specializations/python', linkLabel: 'coursera.org — Python for Everybody (audit free)', badge: 'free' },
           { title: 'Python in 100 Seconds + Full Tutorial – Fireship', desc: 'C#-brained developer content. Fast, no fluff. Watch in 1 sitting and you\'ll be 70% there on syntax.', link: 'https://www.youtube.com/watch?v=x7X9w_GIm1s', linkLabel: 'youtube.com — Python in 100 Seconds (Fireship)', badge: 'free' },
-          { title: 'Python for .NET Developers – Microsoft Learn', desc: 'Side-by-side C# vs Python comparisons. Perfect for your mental model.', link: 'https://learn.microsoft.com/en-us/training/paths/python-language/', linkLabel: 'learn.microsoft.com — Python for .NET Developers', badge: 'dotnet' },
-          { title: 'Week 1 Challenge: Rebuild a C# utility in Python', desc: 'Don\'t look up everything — struggle through it. The friction is the learning. Pick something real from your work history.', badge: 'free' },
+            { title: 'Python for .NET Developers – Microsoft Learn', desc: 'Side-by-side C# vs Python comparisons. Perfect for your mental model.', link: 'https://learn.microsoft.com/en-us/training/paths/python-language/', linkLabel: 'learn.microsoft.com — Python for .NET Developers', badge: 'dotnet' },
+            { title: 'Python 3: The Big Picture – Pluralsight', desc: 'When you finished with this course, you will have the skills and knowledge of Python to decide if it would be a valuable addition to you or your company skill set.', link: 'https://app.pluralsight.com/library/courses/python-3-big-picture', linkLabel: 'Python 3: The Big Picture', badge: 'pluralsight-course' },
+            { title: 'Python 3 Fundamentals – Pluralsight', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of Python needed to create complex Python applications to solve a variety of problems.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-fundamentals/course-overview', linkLabel: 'Python 3 Fundamentals', badge: 'pluralsight-course' },
+            { title: 'Classes and Object-oriented Programming in Python 3', desc: 'you’ll have the skills and knowledge of object-oriented programming in Python needed to build enterprise level applications with the OOP paradigm in mind.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-classes-object-oriented-programming/course-overview', linkLabel: 'Classes and Object-oriented Programming in Python 3', badge: 'pluralsight-course' },
+            { title: 'Working with Files in Python 3', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of Working with Files in Python 3 needed to work successfully with files and folders using Python.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-working-files/course-overview', linkLabel: 'Working with Files in Python 3', badge: 'pluralsight-course' },
+            { title: 'Working with Databases in Python 3', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of relational and NoSQL databases in Python needed to use databases in your next Python application.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-working-databases/course-overview', linkLabel: 'Working with Databases in Python 3', badge: 'pluralsight-course' },
+            { title: 'Python 3 Best Practices', desc: 'By the end of this course, you will be able to write clearer, more readable, and more maintainable code with better documentation.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-best-practices/course-overview', linkLabel: 'Python 3 Best Practices', badge: 'dotnet' },
+            { title: 'Development Environments and Package Management in Python 3', desc: 'At the end of this course, you’ll have all the necessary skills that a Python developer will need to manage the dependencies of their projects.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-development-environments-package-management/course-overview', linkLabel: 'Development Environments and Package Management in Python 3', badge: 'pluralsight-course' },
+            { title: 'Testing in Python 3', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of writing the automated tests needed to ensure your code does what you think it does and has a reliable suite of regression tests to support future development.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-testing/course-overview', linkLabel: 'Testing in Python 3', badge: 'pluralsight-course' },
+            { title: 'Python 3 Regex Playbook', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of Python regex usage needed to tackle a wide range of text processing tasks.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-regex-playbook/course-overview', linkLabel: 'Python 3 Regex Playbook', badge: 'pluralsight-course' },
+            { title: 'Building a REST API with Python 3', desc: 'When you’re finished with this course, you’ll have the skills and knowledge needed to create real-world Python projects from start to finish using best practices and popular tools.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-building-rest-api/course-overview', linkLabel: 'Building a REST API with Python 3', badge: 'pluralsight-course' },
+            { title: 'Python 3 Performance', desc: 'Take this course and make your Python applications faster!', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-performance/course-overview', linkLabel: 'Python 3 Performance', badge: 'dotnet' },
+            { title: 'Python 3 Decorators', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of Python 3 Decorators needed to create and use decorators to make your applications more flexible.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-decorators/course-overview', linkLabel: 'Python 3 Decorators', badge: 'pluralsight-course' },
+            { title: 'Design Patterns in Python 3', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of object-oriented Python programming needed to build stable, maintainable, and extensible applications.', link: 'https://app.pluralsight.com/ilx/video-courses/python-3-design-patterns/course-overview', linkLabel: 'Design Patterns in Python 3', badge: 'pluralsight-course' },
+            { title: 'Python Requests Playbook', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of using the requests library needed to make HTTP requests to various HTTP compliant services.', link: 'https://app.pluralsight.com/ilx/video-courses/python-requests-playbook/course-overview', linkLabel: 'Python Requests Playbook', badge: 'pluralsight-course' },
+            { title: 'Debugging in Python', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of Python debugging needed to remove and eliminate errors and bugs for a better user experience.', link: 'https://app.pluralsight.com/ilx/video-courses/python-debugging/course-overview', linkLabel: 'Debugging in Python', badge: 'pluralsight-course' },
+            { title: 'Python Collections', desc: 'When you’re finished with this course, you’ll have the skills and knowledge of Python\'s container data types needed to create elegant, efficient solutions in your programming projects.', link: 'https://app.pluralsight.com/ilx/video-courses/python-collections/course-overview', linkLabel: 'Python Collections', badge: 'pluralsight-course' },
+
+
+            { title: 'Week 1 Challenge: Rebuild a C# utility in Python', desc: 'Don\'t look up everything — struggle through it. The friction is the learning. Pick something real from your work history.', badge: 'free' },
+
         ]
       },
       {
@@ -658,6 +682,7 @@ PHASES.forEach((phase, pi) => {
           const itemId = `${phase.id}_s${si}_i${ii}`;
           const badge = item.badge === 'free' ? '<span class="badge free">FREE</span>'
             : item.badge === 'dotnet' ? '<span class="badge dotnet">.NET BRIDGE</span>'
+            : item.badge === 'pluralsight-course' ? '<span class="badge pluralsight-course">PLURALSIGHT COURSE</span>'
             : item.badge === 'project' ? '<span class="badge project">PROJECT</span>'
             : item.badge === 'cert' ? '<span class="badge cert">CERT</span>' : '';
           return `
